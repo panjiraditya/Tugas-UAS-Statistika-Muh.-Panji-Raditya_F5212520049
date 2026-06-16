@@ -9,9 +9,9 @@ print("Kelas : Sistem Informasi B")
 print("="*50)
 
 # 1. Memuat Dataset
-file_path = r"Data Luas Panen dan Produksi Padi di Indonesia.csv"
+file_path = "Users/user/Documents/Praktikum/Praktikum Alpro Lanjut/Tugas UAS Statistika Muh. Panji Raditya_F5212520049/Data Luas Panen dan Produksi Padi di Indonesia.csv"
 # Pastikan menggunakan sep=";" sesuai dengan format file Anda
-df = pd.read_csv(file_path, sep=";")
+df = pd.read_csv("file_path, sep=;")
 
 # Membersihkan data dari baris yang kosong (jika ada)
 df = df.dropna(subset=['Kabupaten/Kota', 'Luas Lahan/Hektar (X)', 'Produksi Padi/Ton (X)'])
